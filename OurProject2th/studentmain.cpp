@@ -54,12 +54,12 @@ int mainstudent()
 
         switch (num)
         {
-        case 0:exit(0);
+        case 0:break;
         case 1:trainingTheme(questionFile); break;
         case 2:testingOnTheTopic(topics, students, studentIndex); rewriteFileStudents(students, studentFile); break;
         case 3:finalTesting(topics, students, studentIndex); rewriteFileStudents(students, studentFile); break;
         }
-    } while (true);
+    } while (num!=0);
 
     free(students);
     free(topics);

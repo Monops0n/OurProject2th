@@ -3,10 +3,10 @@
 void Shifrin()
 {
     ifstream in("data.txt");
+    ofstream out("output.txt");
     string s;
     if (in) {
         while (getline(in, s)) { //Пробегаем по строкам файла
-            ofstream out("output.txt");
             char key = 'X'; //Определяем ключ шифрования (любой символ подойдет) 
             int len = s.length(); //Определяем длину строки
             for (int i = 0; i < len; i++) {
@@ -14,9 +14,9 @@ void Shifrin()
                 out << s[i]; //Выводим зашифрованную строку
             }
             out << endl;
-            out.close();
         }
     }
+    out.close();
     in.close();
     remove("data.txt");
     rename("output.txt", "data.txt");

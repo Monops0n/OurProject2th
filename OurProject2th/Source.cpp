@@ -3,7 +3,7 @@
 void main()
 {
     setlocale(LC_ALL, "ru");
-    //Shifrin();
+    Shifrin();
     int zadanie;
     do
     {
@@ -29,6 +29,6 @@ void main()
         }
         if (zadanie != 1 && zadanie != 2 && zadanie != 3) cout << "\tТакого варианта нет, попробуйте ещё раз..." << endl << endl; Sleep(1000);
     } while (zadanie != 3);
-    //Shifrout();
+    Shifrin();
     Sleep(1000);
 }

@@ -7,6 +7,8 @@
 #include <Windows.h>
 #include <stdio.h>
 #include "Headerstudent.h"
+#include <sstream>
+#include <iomanip>
 
 using namespace std;
 
@@ -492,12 +494,15 @@ void rewriteFileStudents(Student* students, string fileName)
                 file << final << endl;
             }
             file << "average: ";
-            double average = sum / 8.0;
+            double num1 = sum / 8.0;
+            double average = round(num1 * 100.0) / 100.0;
+            stringstream ss;
+            ss << fixed << std::setprecision(2) << num1;
             if (average == 0) {
                 file << endl;
             }
             else {
-                file << average << endl;
+                file << ss.str() << endl;
             }
         }
     }
