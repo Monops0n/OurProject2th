@@ -1,0 +1,496 @@
+Циклы
+10
+1) Какая конструкция в C++ используется для выполнения повторяющихся операций?
+   a) if-else
+   b) switch-case
+   c) for
+   d) while
+*   c
+2) Какое ключевое слово используется для выхода из цикла в C++?
+   a) break
+   b) continue
+   c) exit
+   d) return
+*   a
+3) Какая конструкция цикла используется, если количество итераций заранее неизвестно?
+   a) for
+   b) while
+   c) do-while
+   d) goto
+*   b
+4) Что произойдет при выполнении кода "for(int i = 0; i < 5; i++)"?
+   a) Цикл выполнится 5 раз
+   b) Цикл выполнится 4 раза
+   c) Цикл выполнится бесконечно
+   d) Программа завершится с ошибкой
+*   a
+5) Какая функция используется для перехода к следующей итерации цикла в C++?
+   a) break
+   b) continue
+   c) return
+   d) goto
+*   b
+6) Какая конструкция цикла используется, если выполнение тела цикла нужно хотя бы раз?
+   a) for
+   b) while
+   c) do-while
+   d) goto
+*   c
+7) Как прервать выполнение текущей итерации цикла и перейти к следующей в C++?
+   a) break
+   b) continue
+   c) exit
+   d) return
+*   b
+8) Как организовать бесконечный цикл в C++?
+   a) for (;;)
+   b) while (true)
+   c) do-while (1)
+   d) goto start
+*   b
+9) Какой цикл предпочтительнее использовать, если количество итераций известно заранее?
+   a) for
+   b) while
+   c) do-while
+   d) любой
+*   a
+10) Как прервать выполнение цикла на определенной итерации в C++?
+    a) break
+    b) continue
+    c) exit
+    d) return
+*   a
+Массивы (одномерные и двумерные)
+10
+1) Как объявить одномерный массив в C++?
+   a) int array[10];
+   b) int array();
+   c) array<int> array;
+   d) int array{10};
+*   a
+2) Как получить доступ к элементу одномерного массива по индексу?
+   a) array(index)
+   b) array[index]
+   c) array.at(index)
+   d) array.get(index)
+*   b
+3) Как объявить двумерный массив в C++?
+   a) int array[10][10];
+   b) int array();
+   c) array<int, int> array;
+   d) int array{{10, 10}};
+*   a
+4) Как обратиться к элементу двумерного массива по индексам?
+   a) array(index1, index2)
+   b) array[index1, index2]
+   c) array[index1][index2]
+   d) array.at(index1, index2)
+*   c
+5) Какая функция используется для определения размера массива в C++?
+   a) size()
+   b) length()
+   c) count()
+   d) sizeof()
+*   d
+6) Как определить количество элементов в массиве в C++?
+   a) count(array)
+   b) size(array)
+   c) sizeof(array)
+   d) length(array)
+*   b
+7) Как заполнить массив одним и тем же значением в C++?
+   a) fill(array, value)
+   b) assign(array, value)
+   c) memset(array, value, sizeof(array))
+   d) copy(array, value)
+*   c
+8) Как скопировать один массив в другой в C++?
+   a) copy(array1, array2)
+   b) memcpy(array1, array2, sizeof(array2))
+   c) assign(array1, array2)
+   d) fill(array1, array2)
+*   b
+9) Как удалить элемент из массива в C++?
+   a) remove(array, index)
+   b) delete(array, index)
+   c) array.remove(index)
+   d) нет такой функции
+*   d
+10) Как получить срез массива в C++?
+    a) array.slice(start, end)
+    b) array.subarray(start, end)
+    c) array.extract(start, end)
+    d) array.cut(start, end)
+*   a
+Строки
+10
+1) Как объявить строку в C++ с использованием стандартной библиотеки?
+    a) string s = "Hello";
+    b) char s = "Hello";
+    c) str s = "Hello";
+    d) string s("Hello");
+*   a
+2) Как получить длину строки в C++?
+    a) s.size()
+    b) s.length()
+    c) s.count()
+    d) s.sizeof()
+*   b
+3) Как сравнить две строки в C++?
+    a) s1 == s2
+    b) s1.compare(s2)
+    c) s1.equals(s2)
+    d) s1.compare == s2.compare
+*   b
+4) Как получить подстроку из строки в C++?
+    a) s.substr(start, end)
+    b) s.substring(start, end)
+    c) s.sub(start, end)
+    d) s.slice(start, end)
+*   a
+5) Как добавить символ к строке в C++?
+    a) s.addChar(c)
+    b) s.append(c)
+    c) s.concat(c)
+    d) s.insert(c)
+*   b
+6) Как удалить символ из строки в C++?
+    a) s.removeChar(pos)
+    b) s.deleteChar(pos)
+    c) s.erase(pos)
+    d) s.remove(pos)
+*   c
+7) Как найти позицию первого вхождения подстроки в строке в C++?
+    a) s.find(substring)
+    b) s.indexOf(substring)
+    c) s.search(substring)
+    d) s.locate(substring)
+*   a
+8) Как заменить все вхождения подстроки в строке другой строкой в C++?
+    a) s.replace(oldStr, newStr)
+    b) s.substitute(oldStr, newStr)
+    c) s.swap(oldStr, newStr)
+    d) s.change(oldStr, newStr)
+*   a
+9) Как преобразовать строку в верхний регистр в C++?
+    a) s.toUpper()
+    b) s.upper()
+    c) s.toUpperCase()
+    d) s.uppercase()
+*   c
+10) Как разбить строку на подстроки по разделителю в C++?
+    a) s.split(delimiter)
+    b) s.tokenize(delimiter)
+    c) s.break(delimiter)
+    d) s.parse(delimiter)
+*   b
+Рекурсия
+10
+1) Что такое рекурсия?
+   a) Процесс, в котором функция вызывает саму себя
+   b) Процесс, в котором функция вызывает другую функцию
+   c) Процесс, в котором функция вызывает только внешние функции
+   d) Процесс, в котором функция не вызывает другие функции
+*   a
+2) Какая функция является терминальной (базовой) в рекурсивной последовательности?
+   a) Первая
+   b) Последняя
+   c) Ни одна
+   d) Любая
+*   a
+3) Что такое бесконечная рекурсия?
+   a) Рекурсия, которая никогда не завершается
+   b) Рекурсия, которая завершается с ошибкой
+   c) Рекурсия, которая завершается за конечное время
+   d) Рекурсия, в которой нет базового случая
+*   a
+4) Как называется часть функции, которая вызывает саму себя?
+   a) Внешняя рекурсия
+   b) Внутренняя рекурсия
+   c) Рекурсивный шаг
+   d) Базовый случай
+*   c
+5) Как называется состояние, когда рекурсивная функция продолжает вызывать саму себя, но не достигает базового случая?
+   a) Бесконечная петля
+   b) Бесконечное выполнение
+   c) Бесконечная рекурсия
+   d) Бесконечное итерирование
+*   c
+6) Какой алгоритм рекурсивного обхода используется для деревьев?
+   a) Обход в ширину
+   b) Обход в глубину
+   c) Линейный обход
+   d) Обход по уровням
+*   b
+7) Какая структура данных часто используется для реализации рекурсивных алгоритмов?
+   a) Массив
+   b) Стек
+   c) Очередь
+   d) Список
+*   b
+8) Какой алгоритм использует принцип "разделяй и властвуй"?
+   a) Линейный поиск
+   b) Бинарный поиск
+   c) Поиск в ширину
+   d) Поиск в глубину
+*   b
+9) Что такое хвостовая рекурсия?
+   a) Рекурсия, в которой базовый случай находится в конце функции
+   b) Рекурсия, в которой базовый случай находится в начале функции
+   c) Рекурсия, в которой базовый случай отсутствует
+   d) Рекурсия, в которой базовый случай может быть в любом месте функции
+*   a
+10) Какой из следующих алгоритмов НЕ является рекурсивным?
+    a) Факториал
+    b) Быстрая сортировка
+    c) Обход в глубину
+    d) Линейный поиск
+*   d
+Структуры
+10
+1) Что такое структура в C++?
+   a) Тип данных, который позволяет хранить несколько значений разных типов
+   b) Тип данных, который хранит только целые числа
+   c) Тип данных, который хранит только строки
+   d) Тип данных, который хранит только указатели
+*   a
+2) Как объявить структуру в C++?
+   a) struct Name { /* поля */ };
+   b) struct Name ( /* поля */ );
+   c) structure Name { /* поля */ };
+   d) struct Name [ /* поля */ ];
+*   a
+3) Как получить доступ к полям структуры в C++?
+   a) Через оператор точки (.)
+   b) Через оператор стрелки (->)
+   c) Через оператор двоеточия (::)
+   d) Через оператор звездочки (*)
+*   a
+4) Как объявить экземпляр структуры в C++?
+   a) Name instance;
+   b) Name instance();
+   c) struct instance;
+   d) Name::instance;
+*   a
+5) Как передать структуру в функцию в C++?
+   a) По значению
+   b) По указателю
+   c) По ссылке
+   d) Любой из перечисленных способов
+*   d
+6) Как инициализировать структуру в C++?
+   a) struct Name instance = { /* значения */ };
+   b) Name instance = { /* значения */ };
+   c) struct instance = { /* значения */ };
+   d) Name instance( /* значения */ );
+*   b
+7) Какое ключевое слово используется для определения структуры в C++?
+   a) class
+   b) struct
+   c) union
+   d) enum
+*   b
+8) Что произойдет, если не инициализировать поля структуры в C++?
+   a) Поля будут содержать мусорные значения
+   b) Поля будут инициализированы нулями
+   c) Компилятор выдаст ошибку
+   d) Поля будут содержать случайные числа
+*   a
+9) Как объявить массив структур в C++?
+   a) Name array[10];
+   b) struct Name array[10];
+   c) Name array();
+   d) struct Name array();
+*   a
+10) Как объявить указатель на структуру в C++?
+    a) Name* ptr;
+    b) struct Name* ptr;
+    c) Name ptr*;
+    d) struct Name ptr*;
+*   a
+Файлы
+10
+1) Какой заголовочный файл нужен для работы с файлами в C++?
+   a) <fstream>
+   b) <file>
+   c) <iostream>
+   d) <sstream>
+*   a
+2) Как открыть файл для чтения в C++?
+   a) ifstream file("filename.txt");
+   b) ofstream file("filename.txt");
+   c) fstream file("filename.txt");
+   d) file.open("filename.txt");
+*   a
+3) Как открыть файл для записи в C++?
+   a) ifstream file("filename.txt");
+   b) ofstream file("filename.txt");
+   c) fstream file("filename.txt");
+   d) file.write("filename.txt");
+*   b
+4) Как прочитать строку из файла в C++?
+   a) file.read(line);
+   b) getline(file, line);
+   c) file.getline(line);
+   d) file.readline(line);
+*   b
+5) Как проверить, открыт ли файл успешно в C++?
+   a) if (file.is_open())
+   b) if (file.open())
+   c) if (file.good())
+   d) if (file.eof())
+*   a
+6) Как закрыть файл в C++?
+   a) file.close();
+   b) file.end();
+   c) file.stop();
+   d) file.terminate();
+*   a
+7) Как записать строку в файл в C++?
+   a) file << line;
+   b) file.write(line);
+   c) file.put(line);
+   d) file.print(line);
+*   a
+8) Как открыть файл для чтения и записи в C++?
+   a) fstream file("filename.txt", ios::in | ios::out);
+   b) fstream file("filename.txt", ios::read | ios::write);
+   c) fstream file("filename.txt", ios::input | ios::output);
+   d) fstream file("filename.txt", ios::r | ios::w);
+*   a
+9) Как переместить указатель на определенную позицию в файле в C++?
+   a) file.seekg(pos);
+   b) file.moveg(pos);
+   c) file.setg(pos);
+   d) file.shiftg(pos);
+*   a
+10) Как узнать текущую позицию указателя в файле в C++?
+    a) file.tellg();
+    b) file.getpos();
+    c) file.currentpos();
+    d) file.whereg();
+*   a
+Адреса и указатели
+10
+1) Что такое указатель в C++?
+   a) Переменная, которая хранит адрес другой переменной
+   b) Переменная, которая хранит значение другого типа
+   c) Функция, которая возвращает адрес переменной
+   d) Оператор для доступа к значению переменной
+*   a
+2) Какой оператор используется для получения адреса переменной в C++?
+   a) *
+   b) &
+   c) %
+   d) @
+*   b
+3) Какой оператор используется для разыменования указателя в C++?
+   a) *
+   b) &
+   c) %
+   d) @
+*   a
+4) Как объявить указатель на целое число в C++?
+   a) int* ptr;
+   b) int ptr*;
+   c) int& ptr;
+   d) int ptr&;
+*   a
+5) Как присвоить адрес переменной указателю в C++?
+   a) ptr = &var;
+   b) ptr = var;
+   c) ptr = *var;
+   d) ptr = &*var;
+*   a
+6) Что произойдет, если разыменовать нулевой указатель в C++?
+   a) Ошибка выполнения
+   b) Ошибка компиляции
+   c) Программа завершится успешно
+   d) Указатель укажет на первый элемент массива
+*   a
+7) Как динамически выделить память для одного целого числа в C++?
+   a) int* ptr = new int;
+   b) int* ptr = malloc(sizeof(int));
+   c) int ptr = new int;
+   d) int ptr = malloc(sizeof(int));
+*   a
+8) Как освободить динамически выделенную память в C++?
+   a) delete ptr;
+   b) free(ptr);
+   c) release(ptr);
+   d) delete[] ptr;
+*   a
+9) Что такое арифметика указателей в C++?
+   a) Операции над адресами указателей
+   b) Операции над значениями, на которые указывают указатели
+   c) Операции над указателями и их смещениями
+   d) Операции над указателями и их разыменованиями
+*   c
+10) Как объявить указатель на указатель в C++?
+    a) int** ptr;
+    b) int* ptr*;
+    c) int ptr**;
+    d) int** ptr*;
+*   a
+Динамическая память
+10
+1) Как выделить память для одномерного массива в C++?
+   a) int* array = new int[size];
+   b) int array = new int[size];
+   c) int* array = malloc(size * sizeof(int));
+   d) int array = malloc(size * sizeof(int));
+*   a
+2) Как освободить память, выделенную для одномерного массива в C++?
+   a) delete[] array;
+   b) free(array);
+   c) delete array;
+   d) release(array);
+*   a
+3) Как выделить память для одного целого числа в C++?
+   a) int* ptr = new int;
+   b) int* ptr = malloc(sizeof(int));
+   c) int ptr = new int;
+   d) int ptr = malloc(sizeof(int));
+*   a
+4) Как освободить память, выделенную для одного целого числа в C++?
+   a) delete ptr;
+   b) free(ptr);
+   c) delete[] ptr;
+   d) release(ptr);
+*   a
+5) Что произойдет, если забыть освободить динамически выделенную память в C++?
+   a) Утечка памяти
+   b) Ошибка компиляции
+   c) Ошибка выполнения
+   d) Программа завершится успешно
+*   a
+6) Как правильно освободить память, выделенную с помощью malloc в C++?
+   a) free(ptr);
+   b) delete ptr;
+   c) delete[] ptr;
+   d) release(ptr);
+*   a
+7) Как правильно выделить память для двумерного массива в C++?
+   a) int** array = new int*[rows]; for(int i = 0; i < rows; ++i) array[i] = new int[cols];
+   b) int* array = new int[rows * cols];
+   c) int** array = malloc(rows * sizeof(int*)); for(int i = 0; i < rows; ++i) array[i] = malloc(cols * sizeof(int));
+   d) int** array = new int[rows * cols];
+*   a
+8) Как освободить память, выделенную для двумерного массива в C++?
+   a) for(int i = 0; i < rows; ++i)delete[] array[i]; delete[] array;
+   b) free(array);
+   c) delete array;
+   d) release(array);
+*   a
+9) Как инициализировать выделенную память значением в C++?
+   a) memset(ptr, value, size * sizeof(type));
+   b) meminit(ptr, value, size * sizeof(type));
+   c) initmem(ptr, value, size * sizeof(type));
+   d) setmem(ptr, value, size * sizeof(type));
+*   a
+10) Как избежать утечек памяти в C++?
+    a) Всегда освобождать память после использования
+    b) Использовать статические переменные
+    c) Избегать использования указателей
+    d) Использовать только глобальные переменные
+*   a

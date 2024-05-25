@@ -1,0 +1,156 @@
+Ivanov
+Ivanov123
+Иванов Иван
+cycles: 0
+array: 0
+string: 0
+recursion: 0
+struct: 0
+files: 0
+address: 0
+dinamic: 0
+final: 0
+average: 0.00
+Petrov
+Petrov123
+Петров Петр
+cycles: 0
+array: 0
+string: 0
+recursion: 0
+struct: 0
+files: 0
+address: 0
+dinamic: 0
+final: 0
+average: 0.00
+Sidorov
+Sidorov123
+Сидоров Сидор
+cycles: 0
+array: 0
+string: 0
+recursion: 0
+struct: 0
+files: 0
+address: 0
+dinamic: 0
+final: 0
+average: 0
+Smirnov
+Smirnov123
+Смирнов Смирн
+cycles: 0
+array: 0
+string: 0
+recursion: 0
+struct: 0
+files: 0
+address: 0
+dinamic: 0
+final: 0
+average: 0.00
+Kuznetsov
+Kuznetsov123
+Кузнецов Кузнец
+cycles: 0
+array: 0
+string: 0
+recursion: 0
+struct: 0
+files: 0
+address: 0
+dinamic: 0
+final: 0
+average: 0.00
+Vasiliev
+Vasiliev123
+Васильев Василий
+cycles: 0
+array: 0
+string: 0
+recursion: 0
+struct: 0
+files: 0
+address: 0
+dinamic: 0
+final: 0
+average: 0.00
+Popov
+Popov123
+Попов Поп
+cycles: 0
+array: 0
+string: 0
+recursion: 0
+struct: 0
+files: 0
+address: 0
+dinamic: 0
+final: 0
+average: 0.00
+Sokolov
+Sokolov123
+Соколов Сокол
+cycles: 0
+array: 0
+string: 0
+recursion: 0
+struct: 0
+files: 0
+address: 0
+dinamic: 0
+final: 0
+average: 0.00
+Lebedev
+Lebedev123
+Лебедев Лебед
+cycles: 0
+array: 0
+string: 0
+recursion: 0
+struct: 0
+files: 0
+address: 0
+dinamic: 0
+final: 0
+average: 0
+Kozlov
+Kozlov123
+Козлов Козел
+cycles: 0
+array: 0
+string: 0
+recursion: 0
+struct: 0
+files: 0
+address: 0
+dinamic: 0
+final: 0
+average: 0.00
+Novikov
+Novikov123
+Новиков Новик
+cycles: 0
+array: 0
+string: 0
+recursion: 0
+struct: 0
+files: 0
+address: 0
+dinamic: 0
+final: 0
+average: 0
+Morozov
+Morozov123
+Морозов Мороз
+cycles: 5
+array: 5
+string: 5
+recursion: 5
+struct: 5
+files: 5
+address: 5
+dinamic: 5
+final: 5
+average: 5.00
